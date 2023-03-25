@@ -1,17 +1,17 @@
 #include <stdio.h>
-int main () //calculo de media
+int main () //função principal
 {
     float a,b,c,d,e;//declaração de variaveis
-    printf ("digite numero 1:");
+    printf ("digite a primeira nota:");
     scanf("%f",&a);
     
-    printf("digite numero 2:");
+    printf("digite a segunda nota:");
     scanf ("%f",&b);
     
-    printf("digite numero 3:");
+    printf("digite a terceira nota:");
     scanf ("%f",&c);
     
-    printf("digite numero 4:");
+    printf("digite a quarta nota:");
     scanf ("%f",&d);
     
     e= a + b + c + d/4;
