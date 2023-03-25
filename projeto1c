@@ -5,16 +5,16 @@ int main () //função principal
     printf ("digite a primeira nota:");
     scanf("%f",&a);
     
-    printf("digite a segunda nota:");
+    printf("\ndigite a segunda nota:");
     scanf ("%f",&b);
     
-    printf("digite a terceira nota:");
+    printf("\ndigite a terceira nota:");
     scanf ("%f",&c);
     
-    printf("digite a quarta nota:");
+    printf("\ndigite a quarta nota:");
     scanf ("%f",&d);
     
     e= (a + b + c + d)/4;
-    printf ("a media dentre as notas %.2f, %.2f, %.2f, %.2f é %.2f", a, b, c,d, e);
+    printf ("\na media dentre esses numeros é de %.2f",e);
     return 0;
 }
