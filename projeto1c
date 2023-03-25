@@ -14,7 +14,7 @@ int main () //função principal
     printf("digite a quarta nota:");
     scanf ("%f",&d);
     
-    e= a + b + c + d/4;
+    e= (a + b + c + d)/4;
     printf ("a media dentre as notas %f, %f, %f, %f é %f", a, b, c,d, e);
     return 0;
 }
