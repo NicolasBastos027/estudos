@@ -15,6 +15,6 @@ int main () //função principal
     scanf ("%f",&d);
     
     e= (a + b + c + d)/4;
-    printf ("a media dentre as notas %f, %f, %f, %f é %f", a, b, c,d, e);
+    printf ("a media dentre as notas %.2f, %.2f, %.2f, %.2f é %.2f", a, b, c,d, e);
     return 0;
 }
